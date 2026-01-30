@@ -30,6 +30,7 @@ Run the code chunk below to load the `tidyverse` package and read in the San Fra
 
 ```{r setup}
 library(tidyverse)
+library(ggplot2)
 weather <- read_csv("https://mac-stat.github.io/data/sfo_weather.csv")
 ```
 
