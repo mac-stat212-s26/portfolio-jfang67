@@ -1,0 +1,36 @@
+---
+title: "Homework 01 - Jack Fang"
+format: 
+  html: 
+    embed-resources: true
+---
+
+
+## TidyTuesday Section
+
+Explore the week's [TidyTuesday](https://github.com/rfordatascience/tidytuesday) challenge. Develop a research question, then answer it through a short data story with [effective visualization(s)]({{< var effective-viz-url >}}).  Provide sufficient background for readers to grasp your narrative.
+
+```{r}
+library(tidyverse)
+
+companies <- read.csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-01-27/companies.csv")
+
+ggplot(companies, aes(x = company_size, y = capital_stock)) +
+  geom_boxplot() +
+  labs(
+    title = "Capital stock by company size in Brazil",
+    x = "Company size",
+    y = "Capital stock (BRL)",
+    caption = "Source: Brazilian CNPJ data (TidyTuesday, 2026-01-27)"
+  )
+
+```
+Research Questions: How does capital stock vary by company size in Brazil?
+
+To look at this, I compared declared capital stock across different company size categories using a boxplot. 
+Most companies cluster at relatively low capital levels, while a small number of firms have extremely large capital stock values.
+These outliers stretch the distribution and make the overall pattern highly right-skewed, especially for the small-enterprise and 'other' categories.
+
+
+
+
