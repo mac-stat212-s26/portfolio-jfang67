@@ -1,0 +1,122 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "COMP/STAT212 Portfolio",
+    "section": "",
+    "text": "Welcome to my online portfolio for COMP/STAT112 course taken at Macalester College. Please, use the side bar on the left for navigation.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Welcome</span>"
+    ]
+  },
+  {
+    "objectID": "pv/pv-01.html",
+    "href": "pv/pv-01.html",
+    "title": "Professional Viz",
+    "section": "",
+    "text": "Add content here",
+    "crumbs": [
+      "Prof Viz",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Professional Viz</span>"
+    ]
+  },
+  {
+    "objectID": "tt/2025-07-08.html",
+    "href": "tt/2025-07-08.html",
+    "title": "TidyTuesday Sample 1",
+    "section": "",
+    "text": "Add content here",
+    "crumbs": [
+      "TidyTuesday",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>TidyTuesday Sample 1</span>"
+    ]
+  },
+  {
+    "objectID": "tt/2025-07-15.html",
+    "href": "tt/2025-07-15.html",
+    "title": "TidyTuesday Sample 2",
+    "section": "",
+    "text": "Add content here",
+    "crumbs": [
+      "TidyTuesday",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>TidyTuesday Sample 2</span>"
+    ]
+  },
+  {
+    "objectID": "hw01-tt.html",
+    "href": "hw01-tt.html",
+    "title": "Homework 01 - Jack Fang",
+    "section": "",
+    "text": "TidyTuesday Section\nExplore the week’s TidyTuesday challenge. Develop a research question, then answer it through a short data story with effective visualization(s). Provide sufficient background for readers to grasp your narrative.\nCodelibrary(tidyverse)\n\ncompanies &lt;- read.csv(\"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-01-27/companies.csv\")\n\nggplot(companies, aes(x = company_size, y = capital_stock)) +\n  geom_boxplot() +\n  labs(\n    title = \"Capital stock by company size in Brazil\",\n    x = \"Company size\",\n    y = \"Capital stock (BRL)\",\n    caption = \"Source: Brazilian CNPJ data (TidyTuesday, 2026-01-27)\"\n  )\nResearch Questions: How does capital stock vary by company size in Brazil?\nTo look at this, I compared declared capital stock across different company size categories using a boxplot. Most companies cluster at relatively low capital levels, while a small number of firms have extremely large capital stock values. These outliers stretch the distribution and make the overall pattern highly right-skewed, especially for the small-enterprise and ‘other’ categories.",
+    "crumbs": [
+      "TidyTuesday",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Homework 01 - Jack Fang</span>"
+    ]
+  },
+  {
+    "objectID": "pcl/pcl.html",
+    "href": "pcl/pcl.html",
+    "title": "Pre-Class Learning Summaries",
+    "section": "",
+    "text": "R",
+    "crumbs": [
+      "Pre-Class Learnings",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Pre-Class Learning Summaries</span>"
+    ]
+  },
+  {
+    "objectID": "pcl/pcl.html#quarto",
+    "href": "pcl/pcl.html#quarto",
+    "title": "Pre-Class Learning Summaries",
+    "section": "Quarto",
+    "text": "Quarto\n\n\n\nfrom qmd4sci.njtierney.com",
+    "crumbs": [
+      "Pre-Class Learnings",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Pre-Class Learning Summaries</span>"
+    ]
+  },
+  {
+    "objectID": "ica/ica-sample1.html",
+    "href": "ica/ica-sample1.html",
+    "title": "ICA Sample 1",
+    "section": "",
+    "text": "Add content here",
+    "crumbs": [
+      "In-Class Activities",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>ICA Sample 1</span>"
+    ]
+  },
+  {
+    "objectID": "ica/ica-sample2.html",
+    "href": "ica/ica-sample2.html",
+    "title": "ICA Sample 2",
+    "section": "",
+    "text": "Add content here",
+    "crumbs": [
+      "In-Class Activities",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>ICA Sample 2</span>"
+    ]
+  },
+  {
+    "objectID": "extra/extra-sample1.html",
+    "href": "extra/extra-sample1.html",
+    "title": "Extra Sample 1",
+    "section": "",
+    "text": "Add content here",
+    "crumbs": [
+      "Extras",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Extra Sample 1</span>"
+    ]
+  },
+  {
+    "objectID": "extra/extra-sample2.html",
+    "href": "extra/extra-sample2.html",
+    "title": "Extra Sample 2",
+    "section": "",
+    "text": "Add content here",
+    "crumbs": [
+      "Extras",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Extra Sample 2</span>"
+    ]
+  }
+]
